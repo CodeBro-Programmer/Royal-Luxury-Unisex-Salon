@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Luxury Unisex Salon — Premium Hair &amp; Beauty in Port Harcourt</title>
+  <meta name="description" content="Royal Luxury Unisex Salon in Port Harcourt, Rivers State — bespoke hair styling, colour, braiding, barbing, spa and bridal services for men and women. Book your appointment today.">
+  <meta name="keywords" content="luxury salon Port Harcourt, unisex salon, hair styling, braiding, barbing, bridal hair, Rivers State salon">
+  <meta name="author" content="Royal Luxury Unisex Salon">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Royal Luxury Unisex Salon — Port Harcourt">
+  <meta property="og:description" content="Bespoke hair, beauty and spa artistry for men and women. Reserve your chair.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/og-image.svg">
+
+  <link rel="icon" type="image/svg+xml" href="icons/scissors.svg">
+
+  <!-- Fonts: display serif for the brand voice, geometric sans for legibility -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&amp;family=Jost:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- ============ PRELOADER ============ -->
+  <div id="preloader" class="preloader" aria-hidden="true">
+    <div class="preloader__mark">
+      <svg class="preloader__ring" viewBox="0 0 120 120">
+        <circle cx="60" cy="60" r="52"></circle>
+      </svg>
+      <span class="preloader__crest">R&amp;L</span>
+    </div>
+    <p class="preloader__label">Royal Luxury Unisex Salon</p>
+  </div>
+
+  <!-- ============ SCROLL PROGRESS ============ -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#hero" class="navbar__logo">
+        <span class="navbar__logo-mark">R&amp;L</span>
+        <span class="navbar__logo-text">Royal&nbsp;Luxury<em>Unisex Salon</em></span>
+      </a>
+
+      <nav class="navbar__nav" id="navbarNav" aria-label="Primary">
+        <ul class="navbar__links">
+          <li><a href="#about" class="navbar__link">About</a></li>
+          <li><a href="#services" class="navbar__link">Services</a></li>
+          <li><a href="#gallery" class="navbar__link">Gallery</a></li>
+          <li><a href="#testimonials" class="navbar__link">Testimonials</a></li>
+          <li><a href="#faq" class="navbar__link">FAQ</a></li>
+          <li><a href="#contact" class="navbar__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="navbar__actions">
+        <a href="#booking" class="btn btn--gold btn--sm">Book Appointment</a>
+        <button class="navbar__toggle" id="navToggle" aria-expanded="false" aria-controls="navbarNav" aria-label="Toggle menu">
+          <img src="icons/menu.svg" alt="" class="navbar__toggle-icon navbar__toggle-icon--open">
+          <img src="icons/close.svg" alt="" class="navbar__toggle-icon navbar__toggle-icon--close">
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__bg"></div>
+      <div class="hero__overlay"></div>
+      <div class="container hero__inner">
+        <p class="eyebrow reveal" data-reveal="fade-up">Port Harcourt&nbsp;·&nbsp;Rivers State</p>
+        <h1 class="hero__title reveal" data-reveal="fade-up" data-reveal-delay="1">
+          Where Every Visit<br> Feels Like <em>Royalty</em>
+        </h1>
+        <p class="hero__tagline reveal" data-reveal="fade-up" data-reveal-delay="2">
+          A premium unisex salon crafting bespoke hair, beauty and spa experiences 
+          for clients who expect nothing less than exceptional.
+        </p>
+        <div class="hero__actions reveal" data-reveal="fade-up" data-reveal-delay="3">
+          <a href="#booking" class="btn btn--gold">Book Appointment</a>
+          <a href="#services" class="btn btn--outline">Explore Services</a>
+        </div>
+
+        <dl class="hero__stats reveal" data-reveal="fade-up" data-reveal-delay="4">
+          <div class="hero__stat">
+            <dt class="counter" data-count="12">0</dt>
+            <dd>Years of Artistry</dd>
+          </div>
+          <div class="hero__stat">
+            <dt class="counter" data-count="4800">0</dt>
+            <dd>Happy Clients</dd>
+          </div>
+          <div class="hero__stat">
+            <dt class="counter" data-count="15">0</dt>
+            <dd>Signature Services</dd>
+          </div>
+          <div class="hero__stat">
+            <dt class="counter" data-count="98">0</dt>
+            <dd>% Return Rate</dd>
+          </div>
+        </dl>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Scroll to About section">
+        <span class="hero__scroll-line"></span>
+        <span class="hero__scroll-text">Scroll</span>
+      </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about">
+      <div class="container about__grid">
+        <div class="about__media reveal" data-reveal="fade-right">
+          <div class="about__frame">
+            <img src="images/about-img.svg" alt="Interior of Royal Luxury Unisex Salon showing the styling floor" loading="lazy" width="900" height="1100">
+          </div>
+          <div class="about__frame about__frame--accent">
+            <img src="images/about-img-2.svg" alt="A finished luxury hairstyle at Royal Luxury Unisex Salon" loading="lazy" width="700" height="700">
+          </div>
+          <div class="about__badge">
+            <img src="icons/award.svg" alt="" class="about__badge-icon">
+            <span>Port Harcourt's Premier Unisex Salon</span>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <p class="eyebrow reveal" data-reveal="fade-up">Our Story</p>
+          <h2 class="section-title reveal" data-reveal="fade-up" data-reveal-delay="1">
+            Luxury Beauty, <em>Perfected</em> by Craft
+          </h2>
+          <p class="about__lead reveal" data-reveal="fade-up" data-reveal-delay="2">
+            Royal Luxury Unisex Salon was founded on a simple belief: every client man
+            or woman deserves an experience that feels tailored, unhurried and
+            genuinely luxurious.
+          </p>
+          <p class="about__text reveal" data-reveal="fade-up" data-reveal-delay="3">
+            From our first chair to our current suite in the heart of Port Harcourt, we've
+            built a home for precision hair artistry, premium grooming and restorative
+            spa treatments. Our stylists train continually on the latest global
+            techniques, and every product we use is selected for the health of your hair
+            and skin — not shortcuts. The result is a salon that regulars trust for
+            everyday polish and once-in-a-lifetime occasions alike.
+          </p>
+
+          <ul class="about__points">
+            <li class="reveal" data-reveal="fade-up" data-reveal-delay="1">
+              <img src="icons/star.svg" alt="" class="about__points-icon">
+              <span>Expert stylists trained in international techniques</span>
+            </li>
+            <li class="reveal" data-reveal="fade-up" data-reveal-delay="2">
+              <img src="icons/leaf.svg" alt="" class="about__points-icon">
+              <span>Premium, hair &amp; skin-safe product lines</span>
+            </li>
+            <li class="reveal" data-reveal="fade-up" data-reveal-delay="3">
+              <img src="icons/heart.svg" alt="" class="about__points-icon">
+              <span>Personalised consultations for every client</span>
+            </li>
+          </ul>
+
+          <a href="#booking" class="btn btn--dark reveal" data-reveal="fade-up" data-reveal-delay="4">Reserve Your Chair</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow reveal" data-reveal="fade-up">What We Offer</p>
+          <h2 class="section-title reveal" data-reveal="fade-up" data-reveal-delay="1">Signature Services</h2>
+          <p class="section-subtitle reveal" data-reveal="fade-up" data-reveal-delay="2">
+            Fifteen curated services for hair, beauty and total relaxation — each
+            delivered with the same royal standard of care.
+          </p>
+        </div>
+
+        <div class="services__grid" id="servicesGrid">
+          <!-- Service cards are rendered here; markup kept for graceful no-JS fallback -->
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="hair">
+            <div class="service-card__media">
+              <img src="images/svc-hair-styling.svg" alt="Hair styling service" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">45–90 min</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Hair Styling</h3>
+              <p>Precision cuts and finishes tailored to your face shape and lifestyle.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦15,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Hair Styling">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="hair">
+            <div class="service-card__media">
+              <img src="images/svc-hair-treatment.svg" alt="Hair treatment service" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">60 min</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Hair Treatment</h3>
+              <p>Deep conditioning and repair therapy for strength and shine.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦18,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Hair Treatment">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="hair">
+            <div class="service-card__media">
+              <img src="images/svc-hair-coloring.svg" alt="Hair colouring service" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">90–150 min</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Hair Colouring</h3>
+              <p>Custom colour, balayage and gloss treatments by trained colourists.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦25,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Hair Coloring">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="braids">
+            <div class="service-card__media">
+              <img src="images/svc-braiding.svg" alt="Braiding service" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">2–5 hrs</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Braiding</h3>
+              <p>Box braids, cornrows and statement styles, neatly parted and long-lasting.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦12,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Braiding">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="braids">
+            <div class="service-card__media">
+              <img src="images/svc-twists.svg" alt="Twists service" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">2–4 hrs</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Twists</h3>
+              <p>Passion twists, senegalese and marley twists in your preferred size.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦13,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Twists">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="hair">
+            <div class="service-card__media">
+              <img src="images/svc-natural-hair.svg" alt="Natural hair care service" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">60–90 min</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Natural Hair Care</h3>
+              <p>Wash-and-go, twist-outs and moisture routines for healthy natural hair.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦14,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Natural Hair Care">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="hair">
+            <div class="service-card__media">
+              <img src="images/svc-relaxing.svg" alt="Relaxing service" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">75 min</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Relaxing</h3>
+              <p>Gentle, even relaxer application with a scalp-first approach.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦16,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Relaxing">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="barbing">
+            <div class="service-card__media">
+              <img src="images/svc-barbing.svg" alt="Barbing service" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">30–45 min</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Barbing</h3>
+              <p>Sharp fades, line-ups and beard grooming for the modern gentleman.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦6,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Barbing">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="spa">
+            <div class="service-card__media">
+              <img src="images/svc-facials.svg" alt="Facial service" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">45 min</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Facials</h3>
+              <p>Deep-cleansing and hydrating facials suited to your skin type.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦17,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Facials">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="beauty">
+            <div class="service-card__media">
+              <img src="images/svc-makeup.svg" alt="Makeup service" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">45–60 min</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Makeup</h3>
+              <p>Soft-glam to full-glam application for events and everyday glow.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦20,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Makeup">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="beauty">
+            <div class="service-card__media">
+              <img src="images/svc-pedicure.svg" alt="Pedicure service" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">40 min</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Pedicure</h3>
+              <p>Spa pedicure with soak, scrub, shaping and polish of your choice.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦10,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Pedicure">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="beauty">
+            <div class="service-card__media">
+              <img src="images/svc-manicure.svg" alt="Manicure service" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">35 min</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Manicure</h3>
+              <p>Nail shaping, cuticle care and polish for a refined finish.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦8,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Manicure">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="bridal">
+            <div class="service-card__media">
+              <img src="images/svc-bridal.svg" alt="Bridal services" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">3–5 hrs</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Bridal Services</h3>
+              <p>Full bridal party styling, trials included, for your most important day.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦80,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Bridal Services">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="hair">
+            <div class="service-card__media">
+              <img src="images/svc-installation.svg" alt="Hair installation service" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">2–3 hrs</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Hair Installation</h3>
+              <p>Sew-ins, wigs and closures installed with a natural, seamless finish.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦22,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Hair Installation">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card reveal" data-reveal="zoom" data-category="spa">
+            <div class="service-card__media">
+              <img src="images/svc-spa.svg" alt="Luxury spa service" loading="lazy" width="700" height="560">
+              <span class="service-card__duration"><img src="icons/clock.svg" alt="">60–120 min</span>
+            </div>
+            <div class="service-card__body">
+              <h3>Luxury Spa Services</h3>
+              <p>Massage, body treatments and full relaxation packages.</p>
+              <div class="service-card__footer">
+                <span class="service-card__price">From ₦30,000</span>
+                <a href="#booking" class="service-card__btn" data-service="Luxury Spa Services">Book</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE US ============ -->
+    <section class="why-us" id="why-us">
+      <div class="container">
+        <div class="section-heading section-heading--light">
+          <p class="eyebrow reveal" data-reveal="fade-up">The Royal Standard</p>
+          <h2 class="section-title reveal" data-reveal="fade-up" data-reveal-delay="1">Why Clients Choose Us</h2>
+        </div>
+
+        <div class="why-us__grid">
+          <div class="why-us__item reveal" data-reveal="fade-up" data-reveal-delay="1">
+            <img src="icons/star.svg" alt="" class="why-us__icon">
+            <h3>Experienced Stylists</h3>
+            <p>Years of combined expertise across hair, colour and grooming.</p>
+          </div>
+          <div class="why-us__item reveal" data-reveal="fade-up" data-reveal-delay="2">
+            <img src="icons/sparkle.svg" alt="" class="why-us__icon">
+            <h3>Luxury Environment</h3>
+            <p>A calm, elegant space designed for total comfort.</p>
+          </div>
+          <div class="why-us__item reveal" data-reveal="fade-up" data-reveal-delay="3">
+            <img src="icons/leaf.svg" alt="" class="why-us__icon">
+            <h3>Premium Products</h3>
+            <p>Only trusted, hair-safe and skin-safe product lines.</p>
+          </div>
+          <div class="why-us__item reveal" data-reveal="fade-up" data-reveal-delay="4">
+            <img src="icons/tag.svg" alt="" class="why-us__icon">
+            <h3>Affordable Luxury</h3>
+            <p>Premium results priced for regular indulgence.</p>
+          </div>
+          <div class="why-us__item reveal" data-reveal="fade-up" data-reveal-delay="1">
+            <img src="icons/shield.svg" alt="" class="why-us__icon">
+            <h3>Professional Equipment</h3>
+            <p>Modern, well-maintained tools and hygiene standards.</p>
+          </div>
+          <div class="why-us__item reveal" data-reveal="fade-up" data-reveal-delay="2">
+            <img src="icons/heart.svg" alt="" class="why-us__icon">
+            <h3>Excellent Service</h3>
+            <p>Warm, attentive care from the moment you walk in.</p>
+          </div>
+          <div class="why-us__item reveal" data-reveal="fade-up" data-reveal-delay="3">
+            <img src="icons/award.svg" alt="" class="why-us__icon">
+            <h3>Customer Satisfaction</h3>
+            <p>A loyal client base built on consistent, reliable results.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow reveal" data-reveal="fade-up">Transformations</p>
+          <h2 class="section-title reveal" data-reveal="fade-up" data-reveal-delay="1">Our Gallery</h2>
+          <p class="section-subtitle reveal" data-reveal="fade-up" data-reveal-delay="2">
+            A look at the artistry that leaves our chairs every day. Salon photography
+            to be added upon deployment.
+          </p>
+        </div>
+
+        <div class="gallery__filters reveal" data-reveal="fade-up" role="tablist" aria-label="Filter gallery">
+          <button class="gallery__filter is-active" data-filter="all">All</button>
+          <button class="gallery__filter" data-filter="hair">Hair</button>
+          <button class="gallery__filter" data-filter="braids">Braids</button>
+          <button class="gallery__filter" data-filter="bridal">Bridal</button>
+          <button class="gallery__filter" data-filter="barbing">Barbing</button>
+          <button class="gallery__filter" data-filter="beauty">Beauty &amp; Spa</button>
+        </div>
+
+        <div class="gallery__grid" id="galleryGrid">
+          <button class="gallery__item reveal" data-reveal="zoom" data-category="braids">
+            <img src="images/gallery-1.svg" alt="Braided style transformation" loading="lazy" width="800" height="1000">
+            <span class="gallery__zoom"><img src="icons/search-zoom.svg" alt=""></span>
+          </button>
+          <button class="gallery__item reveal" data-reveal="zoom" data-category="hair">
+            <img src="images/gallery-2.svg" alt="Precision hair style" loading="lazy" width="800" height="800">
+            <span class="gallery__zoom"><img src="icons/search-zoom.svg" alt=""></span>
+          </button>
+          <button class="gallery__item reveal" data-reveal="zoom" data-category="hair">
+            <img src="images/gallery-3.svg" alt="Custom hair colour result" loading="lazy" width="800" height="1000">
+            <span class="gallery__zoom"><img src="icons/search-zoom.svg" alt=""></span>
+          </button>
+          <button class="gallery__item reveal" data-reveal="zoom" data-category="braids">
+            <img src="images/gallery-4.svg" alt="Neat braided finish" loading="lazy" width="800" height="800">
+            <span class="gallery__zoom"><img src="icons/search-zoom.svg" alt=""></span>
+          </button>
+          <button class="gallery__item reveal" data-reveal="zoom" data-category="bridal">
+            <img src="images/gallery-5.svg" alt="Bridal hair and makeup" loading="lazy" width="800" height="1000">
+            <span class="gallery__zoom"><img src="icons/search-zoom.svg" alt=""></span>
+          </button>
+          <button class="gallery__item reveal" data-reveal="zoom" data-category="barbing">
+            <img src="images/gallery-6.svg" alt="Sharp barbing fade" loading="lazy" width="800" height="800">
+            <span class="gallery__zoom"><img src="icons/search-zoom.svg" alt=""></span>
+          </button>
+          <button class="gallery__item reveal" data-reveal="zoom" data-category="beauty">
+            <img src="images/gallery-7.svg" alt="Full glam makeup look" loading="lazy" width="800" height="1000">
+            <span class="gallery__zoom"><img src="icons/search-zoom.svg" alt=""></span>
+          </button>
+          <button class="gallery__item reveal" data-reveal="zoom" data-category="beauty">
+            <img src="images/gallery-8.svg" alt="Spa treatment moment" loading="lazy" width="800" height="800">
+            <span class="gallery__zoom"><img src="icons/search-zoom.svg" alt=""></span>
+          </button>
+          <button class="gallery__item reveal" data-reveal="zoom" data-category="hair">
+            <img src="images/gallery-9.svg" alt="Healthy natural hair style" loading="lazy" width="800" height="1000">
+            <span class="gallery__zoom"><img src="icons/search-zoom.svg" alt=""></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Lightbox -->
+      <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Gallery image viewer">
+        <button class="lightbox__close" id="lightboxClose" aria-label="Close viewer"><img src="icons/close.svg" alt=""></button>
+        <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous image">&#8249;</button>
+        <img src="" alt="" class="lightbox__image" id="lightboxImage">
+        <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next image">&#8250;</button>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-heading section-heading--light">
+          <p class="eyebrow reveal" data-reveal="fade-up">Client Love</p>
+          <h2 class="section-title reveal" data-reveal="fade-up" data-reveal-delay="1">What Our Clients Say</h2>
+        </div>
+
+        <div class="testimonial-slider reveal" data-reveal="fade-up" data-reveal-delay="2">
+          <div class="testimonial-slider__track" id="testimonialTrack">
+            <article class="testimonial-card">
+              <img src="icons/quote.svg" alt="" class="testimonial-card__quote-icon">
+              <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
+                <img src="icons/star.svg" alt=""><img src="icons/star.svg" alt=""><img src="icons/star.svg" alt=""><img src="icons/star.svg" alt=""><img src="icons/star.svg" alt="">
+              </div>
+              <p>"The most relaxing salon visit I've ever had. My stylist listened
+              carefully and the finish exceeded what I asked for. Royal Luxury has
+              earned a regular client in me."</p>
+              <div class="testimonial-card__author">
+                <img src="images/testimonial-1.svg" alt="" loading="lazy" width="60" height="60">
+                <div>
+                  <strong>Adaeze O.</strong>
+                  <span>Hair Colouring Client</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <img src="icons/quote.svg" alt="" class="testimonial-card__quote-icon">
+              <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
+                <img src="icons/star.svg" alt=""><img src="icons/star.svg" alt=""><img src="icons/star.svg" alt=""><img src="icons/star.svg" alt=""><img src="icons/star.svg" alt="">
+              </div>
+              <p>"As a man who's picky about fades, I finally found my barber. Clean
+              lines every time, and the whole place just feels premium."</p>
+              <div class="testimonial-card__author">
+                <img src="images/testimonial-2.svg" alt="" loading="lazy" width="60" height="60">
+                <div>
+                  <strong>Chuka E.</strong>
+                  <span>Barbing Client</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <img src="icons/quote.svg" alt="" class="testimonial-card__quote-icon">
+              <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
+                <img src="icons/star.svg" alt=""><img src="icons/star.svg" alt=""><img src="icons/star.svg" alt=""><img src="icons/star.svg" alt=""><img src="icons/star.svg" alt="">
+              </div>
+              <p>"They did my entire bridal train and every single lady looked
+              flawless. Punctual, professional, and genuinely talented team."</p>
+              <div class="testimonial-card__author">
+                <img src="images/testimonial-3.svg" alt="" loading="lazy" width="60" height="60">
+                <div>
+                  <strong>Faith N.</strong>
+                  <span>Bridal Client</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <img src="icons/quote.svg" alt="" class="testimonial-card__quote-icon">
+              <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
+                <img src="icons/star.svg" alt=""><img src="icons/star.svg" alt=""><img src="icons/star.svg" alt=""><img src="icons/star.svg" alt=""><img src="icons/star.svg" alt="">
+              </div>
+              <p>"My natural hair has never been healthier. The stylists actually
+              educate you on aftercare instead of rushing you out the door."</p>
+              <div class="testimonial-card__author">
+                <img src="images/testimonial-4.svg" alt="" loading="lazy" width="60" height="60">
+                <div>
+                  <strong>Tamuno B.</strong>
+                  <span>Natural Hair Client</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="testimonial-slider__controls">
+            <button class="testimonial-slider__arrow" id="testimonialPrev" aria-label="Previous testimonial">&#8249;</button>
+            <div class="testimonial-slider__dots" id="testimonialDots"></div>
+            <button class="testimonial-slider__arrow" id="testimonialNext" aria-label="Next testimonial">&#8250;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOOKING ============ -->
+    <section class="booking" id="booking">
+      <div class="container booking__grid">
+        <div class="booking__intro">
+          <p class="eyebrow reveal" data-reveal="fade-up">Reserve Your Chair</p>
+          <h2 class="section-title reveal" data-reveal="fade-up" data-reveal-delay="1">Book Your Appointment</h2>
+          <p class="section-subtitle reveal" data-reveal="fade-up" data-reveal-delay="2">
+            Tell us what you'd like and when our team will confirm your slot shortly
+            after.
+          </p>
+
+          <ul class="booking__info reveal" data-reveal="fade-up" data-reveal-delay="3">
+            <li><img src="icons/clock.svg" alt="">Mon–Sat, 9:00 AM – 8:00 PM</li>
+            <li><img src="icons/pin.svg" alt="">Port Harcourt, Rivers State, Nigeria</li>
+            <li><img src="icons/calendar.svg" alt="">Walk-ins welcome, appointments preferred</li>
+          </ul>
+        </div>
+
+        <form class="booking__form reveal" id="bookingForm" data-reveal="fade-left" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" name="fullName" placeholder="e.g. Amara Johnson" required>
+              <span class="form-error" data-error-for="fullName"></span>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="e.g. 080 000 0000" required>
+              <span class="form-error" data-error-for="phone"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            <span class="form-error" data-error-for="email"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Service</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Select a service</option>
+              <option>Hair Styling</option>
+              <option>Hair Treatment</option>
+              <option>Hair Coloring</option>
+              <option>Braiding</option>
+              <option>Twists</option>
+              <option>Natural Hair Care</option>
+              <option>Relaxing</option>
+              <option>Barbing</option>
+              <option>Facials</option>
+              <option>Makeup</option>
+              <option>Pedicure</option>
+              <option>Manicure</option>
+              <option>Bridal Services</option>
+              <option>Hair Installation</option>
+              <option>Luxury Spa Services</option>
+            </select>
+            <span class="form-error" data-error-for="service"></span>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Preferred Date</label>
+              <input type="date" id="date" name="date" required>
+              <span class="form-error" data-error-for="date"></span>
+            </div>
+            <div class="form-group">
+              <label for="time">Preferred Time</label>
+              <input type="time" id="time" name="time" required>
+              <span class="form-error" data-error-for="time"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="notes">Additional Notes</label>
+            <textarea id="notes" name="notes" rows="3" placeholder="Anything our stylists should know?"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--gold btn--block">
+            <span class="btn__label">Confirm Appointment</span>
+          </button>
+
+          <div class="booking__success" id="bookingSuccess" aria-live="polite" hidden>
+            <img src="icons/sparkle.svg" alt="" class="booking__success-icon">
+            <h3>Thank You — Request Received</h3>
+            <p>
+              This is a demonstration website. Your booking system will be fully
+              activated once the site is officially deployed — no real appointment has
+              been made and no message has been sent.
+            </p>
+            <button type="button" class="btn btn--outline-dark" id="bookingReset">Book Another (Demo)</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow reveal" data-reveal="fade-up">Visit Us</p>
+          <h2 class="section-title reveal" data-reveal="fade-up" data-reveal-delay="1">Find the Salon</h2>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__details reveal" data-reveal="fade-right">
+            <div class="contact__card">
+              <img src="icons/pin.svg" alt="" class="contact__icon">
+              <div>
+                <h3>Location</h3>
+                <p>Royal Luxury Unisex Salon<br>Port Harcourt, Rivers State, Nigeria</p>
+              </div>
+            </div>
+            <div class="contact__card">
+              <img src="icons/clock.svg" alt="" class="contact__icon">
+              <div>
+                <h3>Business Hours</h3>
+                <p>Monday – Saturday: 9:00 AM – 8:00 PM<br>Sunday: 12:00 PM – 6:00 PM</p>
+              </div>
+            </div>
+            <div class="contact__card">
+              <img src="icons/phone.svg" alt="" class="contact__icon">
+              <div>
+                <h3>Phone</h3>
+                <p>+234 800 000 0000 <span class="contact__placeholder">(placeholder)</span></p>
+              </div>
+            </div>
+            <div class="contact__card">
+              <img src="icons/mail.svg" alt="" class="contact__icon">
+              <div>
+                <h3>Email</h3>
+                <p>hello@royalluxurysalon.example <span class="contact__placeholder">(placeholder)</span></p>
+              </div>
+            </div>
+
+            <div class="contact__socials">
+              <a href="#" aria-label="Instagram" class="contact__social"><img src="icons/instagram.svg" alt=""></a>
+              <a href="#" aria-label="Facebook" class="contact__social"><img src="icons/facebook.svg" alt=""></a>
+              <a href="#" aria-label="WhatsApp" class="contact__social"><img src="icons/whatsapp.svg" alt=""></a>
+              <a href="#" aria-label="TikTok" class="contact__social"><img src="icons/tiktok.svg" alt=""></a>
+            </div>
+          </div>
+
+          <div class="contact__map reveal" data-reveal="fade-left">
+            <iframe
+              title="Royal Luxury Unisex Salon location — Port Harcourt"
+              src="https://www.google.com/maps?q=Port+Harcourt,+Rivers+State,+Nigeria&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq" id="faq">
+      <div class="container faq__inner">
+        <div class="section-heading">
+          <p class="eyebrow reveal" data-reveal="fade-up">Good to Know</p>
+          <h2 class="section-title reveal" data-reveal="fade-up" data-reveal-delay="1">Frequently Asked Questions</h2>
+        </div>
+
+        <div class="accordion reveal" data-reveal="fade-up" data-reveal-delay="2" id="faqAccordion">
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              <span>Do I need an appointment, or can I walk in?</span>
+              <img src="icons/plus.svg" alt="" class="accordion__icon">
+            </button>
+            <div class="accordion__panel">
+              <p>Walk-ins are always welcome, but we recommend booking ahead — especially
+              for colour, braiding and bridal services — so we can reserve enough time
+              with the right stylist.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              <span>Do you cater to both men and women?</span>
+              <img src="icons/plus.svg" alt="" class="accordion__icon">
+            </button>
+            <div class="accordion__panel">
+              <p>Yes — we're a fully unisex salon with dedicated services for hair,
+              grooming and beauty for every client.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              <span>What should I bring for a bridal consultation?</span>
+              <img src="icons/plus.svg" alt="" class="accordion__icon">
+            </button>
+            <div class="accordion__panel">
+              <p>Bring any inspiration photos, your outfit colour palette, and the
+              timeline for your event so we can plan a trial session that fits.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              <span>How far in advance should I book for an event?</span>
+              <img src="icons/plus.svg" alt="" class="accordion__icon">
+            </button>
+            <div class="accordion__panel">
+              <p>For major events like weddings, we recommend booking at least 2–3 weeks
+              ahead. For everyday styling, a few days' notice is usually enough.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button class="accordion__trigger" aria-expanded="false">
+              <span>Is the online booking form active?</span>
+              <img src="icons/plus.svg" alt="" class="accordion__icon">
+            </button>
+            <div class="accordion__panel">
+              <p>This website is currently a demonstration. The booking form shows the
+              intended experience, but real appointments will only be processed once
+              the site is officially deployed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="cta" id="cta">
+      <div class="cta__overlay"></div>
+      <div class="container cta__inner reveal" data-reveal="fade-up">
+        <p class="eyebrow">Your Chair Is Waiting</p>
+        <h2 class="section-title">Ready to Feel Like Royalty?</h2>
+        <a href="#booking" class="btn btn--gold">Book Your Appointment</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#hero" class="navbar__logo footer__logo">
+          <span class="navbar__logo-mark">R&amp;L</span>
+          <span class="navbar__logo-text">Royal&nbsp;Luxury<em>Unisex Salon</em></span>
+        </a>
+        <p>Premium hair, beauty and spa artistry in Port Harcourt, Rivers State
+        crafted for clients who expect the exceptional.</p>
+        <div class="contact__socials footer__socials">
+          <a href="#" aria-label="Instagram" class="contact__social"><img src="icons/instagram.svg" alt=""></a>
+          <a href="#" aria-label="Facebook" class="contact__social"><img src="icons/facebook.svg" alt=""></a>
+          <a href="#" aria-label="WhatsApp" class="contact__social"><img src="icons/whatsapp.svg" alt=""></a>
+          <a href="#" aria-label="TikTok" class="contact__social"><img src="icons/tiktok.svg" alt=""></a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#booking">Book Now</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#services">Hair Styling</a></li>
+          <li><a href="#services">Hair Colouring</a></li>
+          <li><a href="#services">Braiding &amp; Twists</a></li>
+          <li><a href="#services">Barbing</a></li>
+          <li><a href="#services">Bridal Services</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3>Contact</h3>
+        <ul>
+          <li>Port Harcourt, Rivers State, Nigeria</li>
+          <li>+234 800 000 0000 (placeholder)</li>
+          <li>hello@royalluxurysalon.example (placeholder)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; <span id="year"></span> Royal Luxury Unisex Salon. All rights reserved.</p>
+        <p>Designed and Developed by <strong>CodeBro Digital</strong></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ BACK TO TOP ============ -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <img src="icons/arrow-up.svg" alt="">
+  </button>
+
+  <!-- Scripts: order matters — utilities/navigation/animation load before booking/gallery which depend on shared helpers -->
+  <script src="js/navigation.js"></script>
+  <script src="js/animation.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/booking.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

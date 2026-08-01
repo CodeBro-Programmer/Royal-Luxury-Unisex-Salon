@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="g19" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#201D1A"/>
+      <stop offset="100%" stop-color="#0B0A09"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g19)"/>
+  <line x1="693" y1="44" x2="759" y2="-95" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="523" y1="204" x2="524" y2="181" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="541" y1="296" x2="640" y2="171" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="609" y1="267" x2="464" y2="200" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="421" y1="335" x2="358" y2="190" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="791" y1="333" x2="750" y2="144" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+  <circle cx="400.0" cy="482.0" r="34" fill="none" stroke="#C9A24B" stroke-width="1.25" opacity="0.85"/>
+  <text x="50%" y="492.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#C9A24B" text-anchor="middle" font-style="italic">RL</text>
+  <text x="50%" y="544.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#F3ECDF" text-anchor="middle" letter-spacing="1">TRANSFORMATION</text>
+  <text x="50%" y="570.0" font-family="Arial, sans-serif" font-size="11" fill="#C9A24B" text-anchor="middle" letter-spacing="3">GALLERY — REPLACE</text>
+</svg>

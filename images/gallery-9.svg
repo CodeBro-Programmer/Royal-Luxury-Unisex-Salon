@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="g27" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#201D1A"/>
+      <stop offset="100%" stop-color="#0B0A09"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g27)"/>
+  <line x1="664" y1="491" x2="823" y2="432" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="292" y1="201" x2="129" y2="34" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="260" y1="844" x2="336" y2="814" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="258" y1="381" x2="264" y2="274" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="253" y1="931" x2="175" y2="982" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="73" y1="747" x2="199" y2="840" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+  <circle cx="400.0" cy="482.0" r="34" fill="none" stroke="#C9A24B" stroke-width="1.25" opacity="0.85"/>
+  <text x="50%" y="492.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#C9A24B" text-anchor="middle" font-style="italic">RL</text>
+  <text x="50%" y="544.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#F3ECDF" text-anchor="middle" letter-spacing="1">NATURAL HAIR</text>
+  <text x="50%" y="570.0" font-family="Arial, sans-serif" font-size="11" fill="#C9A24B" text-anchor="middle" letter-spacing="3">GALLERY — REPLACE</text>
+</svg>

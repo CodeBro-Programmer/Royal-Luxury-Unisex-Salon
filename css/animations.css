@@ -1,0 +1,83 @@
+/* ==========================================================================
+   ROYAL LUXURY UNISEX SALON — ANIMATIONS
+   Keyframes + scroll-reveal utility classes toggled by animation.js
+   ========================================================================== */
+
+/* ---------- Keyframes ---------- */
+@keyframes ring-draw {
+  0%   { stroke-dashoffset: 327; }
+  50%  { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -327; }
+}
+
+@keyframes hero-zoom {
+  0%   { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+@keyframes scroll-line {
+  0%   { top: -100%; }
+  60%  { top: 100%; }
+  100% { top: 100%; }
+}
+
+@keyframes float-y {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-14px); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* ---------- Floating accents ---------- */
+.about__frame--accent {
+  animation: float-y 6s var(--ease-luxury) infinite;
+}
+
+/* ---------- Scroll reveal base states ---------- */
+.reveal {
+  opacity: 0;
+  transition: opacity var(--dur-slow) var(--ease-luxury),
+              transform var(--dur-slow) var(--ease-luxury);
+  will-change: opacity, transform;
+}
+
+.reveal[data-reveal="fade-up"]    { transform: translateY(36px); }
+.reveal[data-reveal="fade-right"] { transform: translateX(-40px); }
+.reveal[data-reveal="fade-left"]  { transform: translateX(40px); }
+.reveal[data-reveal="zoom"]       { transform: scale(0.92); }
+
+.reveal[data-reveal-delay="1"] { transition-delay: 0.08s; }
+.reveal[data-reveal-delay="2"] { transition-delay: 0.16s; }
+.reveal[data-reveal-delay="3"] { transition-delay: 0.24s; }
+.reveal[data-reveal-delay="4"] { transition-delay: 0.32s; }
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal,
+  .hero__bg,
+  .about__frame--accent,
+  .preloader__ring circle,
+  .hero__scroll-line::after {
+    animation: none !important;
+    transition: opacity 0.2s linear !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}

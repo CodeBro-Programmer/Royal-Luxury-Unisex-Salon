@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="560" viewBox="0 0 700 560">
+  <defs>
+    <linearGradient id="g11" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3ECDF"/>
+      <stop offset="100%" stop-color="#EAE1CE"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="560" fill="url(#g11)"/>
+  <line x1="463" y1="476" x2="494" y2="536" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="601" y1="194" x2="495" y2="256" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="487" y1="190" x2="335" y2="218" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="310" y1="145" x2="156" y2="220" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="649" y1="42" x2="753" y2="44" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="463" y1="161" x2="582" y2="-32" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+  <circle cx="350.0" cy="262.0" r="34" fill="none" stroke="#8B6F3E" stroke-width="1.25" opacity="0.85"/>
+  <text x="50%" y="272.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#8B6F3E" text-anchor="middle" font-style="italic">RL</text>
+  <text x="50%" y="324.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#201D1A" text-anchor="middle" letter-spacing="1">BARBING</text>
+  <text x="50%" y="350.0" font-family="Arial, sans-serif" font-size="11" fill="#8B6F3E" text-anchor="middle" letter-spacing="3">SERVICE PHOTO</text>
+</svg>

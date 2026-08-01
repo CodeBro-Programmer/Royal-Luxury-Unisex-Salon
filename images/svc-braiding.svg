@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="560" viewBox="0 0 700 560">
+  <defs>
+    <linearGradient id="g7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3ECDF"/>
+      <stop offset="100%" stop-color="#EAE1CE"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="560" fill="url(#g7)"/>
+  <line x1="331" y1="154" x2="333" y2="287" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="49" y1="74" x2="123" y2="-78" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="374" y1="59" x2="433" y2="-32" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="38" y1="88" x2="60" y2="102" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="71" y1="246" x2="-83" y2="328" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="434" y1="60" x2="523" y2="-77" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+  <circle cx="350.0" cy="262.0" r="34" fill="none" stroke="#8B6F3E" stroke-width="1.25" opacity="0.85"/>
+  <text x="50%" y="272.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#8B6F3E" text-anchor="middle" font-style="italic">RL</text>
+  <text x="50%" y="324.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#201D1A" text-anchor="middle" letter-spacing="1">BRAIDING</text>
+  <text x="50%" y="350.0" font-family="Arial, sans-serif" font-size="11" fill="#8B6F3E" text-anchor="middle" letter-spacing="3">SERVICE PHOTO</text>
+</svg>

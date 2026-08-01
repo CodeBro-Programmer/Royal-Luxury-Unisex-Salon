@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="g29" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3ECDF"/>
+      <stop offset="100%" stop-color="#EAE1CE"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#g29)"/>
+  <line x1="140" y1="19" x2="117" y2="125" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="155" y1="73" x2="-1" y2="134" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="88" y1="100" x2="100" y2="-91" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="8" y1="26" x2="35" y2="159" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="57" y1="89" x2="-100" y2="143" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="84" y1="155" x2="161" y2="169" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+  <circle cx="100.0" cy="82.0" r="34" fill="none" stroke="#8B6F3E" stroke-width="1.25" opacity="0.85"/>
+  <text x="50%" y="92.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#8B6F3E" text-anchor="middle" font-style="italic">RL</text>
+  <text x="50%" y="144.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#201D1A" text-anchor="middle" letter-spacing="1">C.E.</text>
+  <text x="50%" y="170.0" font-family="Arial, sans-serif" font-size="11" fill="#8B6F3E" text-anchor="middle" letter-spacing="3">CLIENT</text>
+</svg>

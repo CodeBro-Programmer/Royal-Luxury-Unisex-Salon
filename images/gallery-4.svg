@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="g22" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3ECDF"/>
+      <stop offset="100%" stop-color="#EAE1CE"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#g22)"/>
+  <line x1="143" y1="248" x2="-45" y2="361" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="457" y1="188" x2="616" y2="49" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="757" y1="667" x2="733" y2="507" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="237" y1="275" x2="62" y2="238" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="615" y1="183" x2="697" y2="333" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+<line x1="750" y1="440" x2="912" y2="264" stroke="#C9A24B" stroke-opacity="0.08" stroke-width="1"/>
+  <circle cx="400.0" cy="382.0" r="34" fill="none" stroke="#8B6F3E" stroke-width="1.25" opacity="0.85"/>
+  <text x="50%" y="392.0" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#8B6F3E" text-anchor="middle" font-style="italic">RL</text>
+  <text x="50%" y="444.0" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#201D1A" text-anchor="middle" letter-spacing="1">BRAIDS</text>
+  <text x="50%" y="470.0" font-family="Arial, sans-serif" font-size="11" fill="#8B6F3E" text-anchor="middle" letter-spacing="3">GALLERY — REPLACE</text>
+</svg>
